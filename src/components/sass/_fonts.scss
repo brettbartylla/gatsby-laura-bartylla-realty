@@ -51,7 +51,8 @@ a, a:visited {
       left: 0;
       width: 0%;
       background: $primary-color;
-      transition: 0.2s;
+      transition: 0.4s;
+      transition-timing-function: cubic-bezier(0.1, 0.3, 0.4, 0.7);
     }
     &:hover:after {
       width: 100%;
