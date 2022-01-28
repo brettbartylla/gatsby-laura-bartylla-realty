@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 //images
-// import cardGif from '../images/cards.gif'
+import Img from 'gatsby-image'
 
 
 //data pulls in query "data" from below
@@ -14,7 +14,14 @@ const IndexPage = ({data}) => (
     <Seo title="Home" />
 
     <div className="Grid--landing">
-      <div></div>
+      <div>
+      <h1>Laura Bartylla</h1>
+      <Img 
+          fluid={data.lauraBartyllaImage.childImageSharp.fluid}
+          alt="laura bartylla"
+          className=""
+        />
+      </div>
     </div>
   </Layout>
 )
@@ -23,7 +30,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    cardGatsbyImage: file(relativePath: {eq: "laura_bartylla.webp"}) {
+    lauraBartyllaImage: file(relativePath: {eq: "laura_bartylla.webp"}) {
       childImageSharp {
         fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid

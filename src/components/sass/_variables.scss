@@ -1,10 +1,24 @@
+// regular
+@font-face {
+    font-family: ws_light;
+    src: url("/fonts/work_sans/WorkSans-Regular.ttf");
+}
+// italic
+@font-face {
+    font-family: ws_light_italic;
+    src: url("/fonts/work_sans/WorkSans-Italic.ttf");
+}
+
+
+
 //colors
 $primary-color: null;
 $secondary-color: null;
 $tertiary-color: null;
 
 //fonts
-$primary-font: "Courier New";
+$primary-font: ws_light_italic;
+$primary-font-italic: ws_light_italic;
 $secondary-font: Helvetica;
 
 $font-size-body: 16px;
