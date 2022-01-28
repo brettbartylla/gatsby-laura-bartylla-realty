@@ -1,4 +1,4 @@
-## Custom Static Site Gatsby Starter
+## Gatsby JS site for Laura Bartylla
 
 **Tech:**
 
