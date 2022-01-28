@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `its meeee`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Laura Bartylla Realty`,
+    description: `Real estate agent Laura Bartylla is selling homes for First Weber Real Estate. Headquartered in Madison, Wisconsin - Laura is dedicated to helping you find a home that is right for you!`,
+    author: `brett bartylla`,
+    siteUrl: `https://wisconsinrealestate.homes`,
   },
   plugins: [
     `gatsby-plugin-sass`,

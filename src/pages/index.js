@@ -28,7 +28,7 @@ const IndexPage = ({data}) => (
         <div>
           <h1>Laura Bartylla</h1>
           <h3>Real Estate Agent</h3>
-          <p>Laura Bartylla active real estate agent currently helping interested buyers find the right homes. 
+          <p>Laura Bartylla active real estate agent dedicated to helping interested buyers find the right home. 
           Currently active Madison Wisconsin and the surrounding area</p>
           <h2>lets connect!</h2>
             <ul>
