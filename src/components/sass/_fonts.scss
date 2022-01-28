@@ -33,6 +33,31 @@ a {
   color: $primary-color;
   text-decoration: none;
 }
+
+
+
+
+a, a:visited {
+  &:not(.no-underline){
+    text-decoration: none;
+    position: relative;
+    color: $primary-color;
+    
+    &:after {
+      content: '';
+      height: 2px;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0%;
+      background: $primary-color;
+      transition: 0.2s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
 li:not(:first-child) {
   padding-top: 10px;
 }

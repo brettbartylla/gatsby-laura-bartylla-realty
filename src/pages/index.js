@@ -39,13 +39,13 @@ const IndexPage = ({data}) => (
                 <a href="mailto:laurabartylla.firstweber.com">laurabartylla.firstweber.com</a>
               </li>
               <li>
-              <a href="https://www.instagram.com/l.bartylla/">
+              <a href="https://www.instagram.com/l.bartylla/" class="no-underline">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-              <a href="https://www.facebook.com/firstweber">
+              <a href="https://www.facebook.com/firstweber" class="no-underline">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://www.linkedin.com/in/laura-bartylla-462a98196/">
+              <a href="https://www.linkedin.com/in/laura-bartylla-462a98196/" class="no-underline">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               </li>
