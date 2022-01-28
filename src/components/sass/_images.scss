@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.nav-logo {
+  font-size: 30px;
+  //width
+  //height
+}
+
+//img to gif transition effect
+.imgFlip {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  & .img-top {
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  &:hover {
+    & .img-top {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

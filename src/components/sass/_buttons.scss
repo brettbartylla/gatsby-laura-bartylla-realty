@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+.Button--primary {
+  background-color: null;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: $font-size-body;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  &:hover,
+  &:active {
+    opacity: 0.9;
+    color: #fff;
+    cursor: pointer;
+  }
+  &:active {
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow: inset 1px 1px 10px #333;
+    box-shadow: inset 1px 1px 10px #333;
+  }
+  //add focus but not on click only keyboard
+}
+
+.Button--secondary {
+  background-color: transparent;
+  border: none;
+  color: null;
+  padding: 13px 32px;
+  font-size: $font-size-body;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  border: solid 2px null;
+  &:hover,
+  &:active {
+    opacity: 0.9;
+    color: #fff;
+    cursor: pointer;
+  }
+  &:active {
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow: inset 1px 1px 10px #333;
+    box-shadow: inset 1px 1px 10px #333;
+  }
+  //add focus but not on click only keyboard
+}
