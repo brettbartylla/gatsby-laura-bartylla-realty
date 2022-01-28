@@ -28,8 +28,10 @@ const IndexPage = ({data}) => (
         <div>
           <h1>Laura Bartylla</h1>
           <h3>Real Estate Agent</h3>
-          <p>Laura Bartylla active real estate agent dedicated to helping interested buyers find the right home. 
-          Currently active Madison Wisconsin and the surrounding area</p>
+          <p>
+            Laura Bartylla is an active real estate agent dedicated to helping interested buyers find the right home. 
+            Currently active Madison Wisconsin and the surrounding area.
+          </p>
           <h2>lets connect!</h2>
             <ul>
               <li>
@@ -48,6 +50,22 @@ const IndexPage = ({data}) => (
               <a href="https://www.linkedin.com/in/laura-bartylla-462a98196/" class="no-underline">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
+              </li>
+            </ul>
+
+            <h3 class="m-t-20">First Home? Check out these resources!</h3>
+            <ul>
+              <li>
+                <a href="https://www.bankrate.com/calculators/mortgages/mortgage-calculator.aspx" target="_blank">Home Mortgage Calculator</a>
+              </li>
+              <li>
+                <a href="https://www.nerdwallet.com/mortgages/how-much-house-can-i-afford/calculate-affordability" target="_blank">How Much House Can I Afford?</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=xBtKMup3jVE" target="_blank">Ultimate First Time Home Buyers Guide</a>
+              </li>
+              <li>
+                <a href="https://www.ncsha.org/"target="_blank">National Council of State Housing Agencies</a>
               </li>
             </ul>
         </div>
