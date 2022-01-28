@@ -11,6 +11,8 @@ h4,
 h5,
 h6 {
   font-family: $primary-font;
+  margin-top: 0;
+  margin-bottom:6px;
 }
 
 h1 {
@@ -18,8 +20,8 @@ h1 {
 h2 {
 }
 h3 {
+  font-family: $primary-font-italic;
 }
-
 p,
 a,
 li,
@@ -27,15 +29,19 @@ footer {
   font-family: $primary-font;
   font-size: 18px;
 }
-
 a {
-  color: null;
+  color: $primary-color;
   text-decoration: none;
 }
+li:not(:first-child) {
+  padding-top: 10px;
+}
 svg {
+  margin-top:8px;
   font-size: 30px!important;
   opacity: .3;
   margin-right:15px;
+  transition: 0.3s;
   &:hover {
     opacity: .6;
   }

@@ -26,10 +26,11 @@ const IndexPage = ({data}) => (
         </div>
         {/* col 2 */}
         <div>
-          <h1>Laura Bartylla <span>Real Estate Agent</span></h1>
+          <h1>Laura Bartylla</h1>
+          <h3>Real Estate Agent</h3>
           <p>Laura Bartylla active real estate agent currently helping interested buyers find the right homes. 
           Currently active Madison Wisconsin and the surrounding area</p>
-          <h2>Contact</h2>
+          <h2>lets connect!</h2>
             <ul>
               <li>
                 <a href="tel:+7154193817">715.419.3817</a>
