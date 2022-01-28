@@ -32,3 +32,11 @@ a {
   color: null;
   text-decoration: none;
 }
+svg {
+  font-size: 30px!important;
+  opacity: .3;
+  margin-right:15px;
+  &:hover {
+    opacity: .6;
+  }
+}

@@ -6,6 +6,8 @@ import Seo from "../components/seo"
 
 //images
 import Img from 'gatsby-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 //data pulls in query "data" from below
@@ -34,6 +36,11 @@ const IndexPage = ({data}) => (
               </li>
               <li>
                 <a href="mailto:laurabartylla.firstweber.com">laurabartylla.firstweber.com</a>
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faInstagram} />
+                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faLinkedin} />
               </li>
             </ul>
         </div>
