@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Laura Bartylla Realty`,
-    description: `Real estate agent Laura Bartylla is selling homes for First Weber Real Estate. Headquartered in Madison, Wisconsin - Laura is dedicated to helping you find a home that is right for you!`,
+    description: `Real estate agent Laura Bartylla is selling homes for First Weber Realtors. Headquartered in Madison, Wisconsin - Laura is dedicated to helping you find a home that is right for you!`,
     author: `brett bartylla`,
     siteUrl: `https://wisconsinrealestate.homes`,
   },
