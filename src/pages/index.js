@@ -33,6 +33,9 @@ const IndexPage = ({data}) => (
             Currently active Madison Wisconsin and the surrounding area.
           </p>
           <h2>lets connect!</h2>
+          <p class="m-t-0">
+            Ready to start looking for a new home? Check out our current <a href="https://laurabartylla.firstweber.com/">listings</a>.
+            </p>
             <ul>
               <li>
                 <a href="tel:+7154193817">715.419.3817</a>
