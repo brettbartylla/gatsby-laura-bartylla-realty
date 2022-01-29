@@ -30,7 +30,7 @@ const IndexPage = ({data}) => (
           <h3>Real Estate Agent</h3>
           <p>
             Laura Bartylla is an active real estate agent dedicated to helping interested buyers find the right home. 
-            Currently active Madison Wisconsin and the surrounding area.
+            Currently active in Madison Wisconsin and the surrounding area.
           </p>
           <h2>lets connect!</h2>
           <p class="m-t-0">
